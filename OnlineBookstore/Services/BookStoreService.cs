@@ -65,7 +65,7 @@ namespace OnlineBookstore.Services
             }
             bookStore.Id = id;
 
-            await _bookStoreRepository.Update(bookStore,id);
+            await _bookStoreRepository.Update(bookStore, id);
 
             return true;
         }
