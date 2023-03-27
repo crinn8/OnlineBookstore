@@ -11,8 +11,7 @@ namespace OnlineBookstore.Models
         [Required, MaxLength(50)]
         public string Author { get; set; } = null!;
 
-        [Required]
-        public float Price { get; set; }
+        public double Price { get; set; }
 
         public virtual ICollection<BooksStock> BooksStocks { get; } = new List<BooksStock>();
     }

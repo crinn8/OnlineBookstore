@@ -4,7 +4,7 @@
     {
         public Task<T?> Get(int? id);
 
-        public Task<List<T?>> GetAll();
+        public Task<List<T>> GetAll();
 
         public Task<bool> Add(T objectToAdd);
 
