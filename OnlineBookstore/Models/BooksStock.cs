@@ -11,7 +11,7 @@ namespace OnlineBookstore.Models
 
         public int BookId { get; set; }
 
-        public int BookstoreId { get; set; }
+        public int BookStoreId { get; set; }
 
         public virtual Book Book { get; set; } = null!;
 
